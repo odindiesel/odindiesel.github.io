@@ -11,26 +11,43 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  text-align: center;
 }
 
-.intro{
-        display: flex;
+h1 {
+        width: 100%;
+        flex-wrap: nowrap;
         justify-content: center;
         margin-top: 20%;
         color: #F9D5D5;
+        text-align: center;
+}
+
+#mc_embed_signup {
+  width: 100%
 }
 
 .line{
-    margin: auto;
+
     border-top: 2px solid #c3aeae;
-    width: 800px;
     height: 3px;
+    width:60%;
+    justify-content: center;
 }
 
+
+.container {
+  display: flex;
+  text-align: center;
+}
+
+
+
 button {
+    cursor: pointer;
+    flex-wrap: nowrap;
+    margin:200px auto;
     background-color: #E7E7E7;
-    margin-left: 42%;
-    margin-top: 50px;
     border: none;
     border-radius: 20px;
     color: #193434;
